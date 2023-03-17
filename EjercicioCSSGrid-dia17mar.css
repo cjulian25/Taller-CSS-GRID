@@ -1,0 +1,94 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HTML Y BODY */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./fondo-minecraft.jpg);
+    background-size: 100% 100%;
+}
+
+
+/* MAIN */
+
+main {
+    display: grid;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding: 1%;
+    gap: 2%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+div {
+    background-color: rgba(91, 248, 248, 0.445);
+    border-radius: 5%;
+}
+
+.imagen1 {
+    background-image: url(./linda.png);
+    background-size: 100% 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.imagen2 {
+    background-image: url(./creeper.png);
+    background-size: 100% 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.imagen3 {
+    background-image: url(./tierra.png);
+    background-size: 100% 100%;
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.imagen4 {
+    background-image: url(./dean.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.imagen5 {
+    background-image: url(./corazon.png);
+    background-size: 100% 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.imagen6 {
+    background-image: url(./cerdo.png);
+    background-size: 100% 100%;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.imagen7 {
+    background-image: url(./elizabeth.png);
+    background-size: 100% 100%;
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+
+.imagen8 {
+    background-image: url(./roger.png);
+    background-size: 100% 100%;
+    grid-column: 3/5;
+    grid-row: 3/5;
+}
